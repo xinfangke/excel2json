@@ -17,7 +17,7 @@
   "author": "yangxiao",
   "license": "ISC",
   "description": "excel to json or zip",
-  "homepage": "http://sheetjs.com/opensource",
+  "homepage": "https://github.com/xinfangke/excel2json",
   "keywords": [
     "excel2zip",
     "excel2json",
