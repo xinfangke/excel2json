@@ -1,0 +1,30 @@
+{
+  "name": "execl2json",
+  "version": "0.0.1",
+  "main": "main.js",
+  "devDependencies": {
+    "@types/jszip": "^3.1.4",
+    "@types/node": "^10.12.18",
+    "@types/xlsx": "0.0.36",
+    "iconv-lite": "^0.4.19",
+    "jszip": "^3.1.4",
+    "ts-node": "^8.0.1",
+    "typescript": "^3.2.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yangxiao",
+  "license": "ISC",
+  "description": "excel to json or zip",
+  "homepage": "http://sheetjs.com/opensource",
+  "keywords": [
+    "excel2zip",
+    "excel2json",
+    "csv2json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
