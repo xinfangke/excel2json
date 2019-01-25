@@ -1,6 +1,6 @@
 {
   "name": "excel2jsonzip",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "main.js",
   "devDependencies": {
     "@types/jszip": "^3.1.4",
