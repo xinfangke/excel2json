@@ -1,3 +1,7 @@
+## 测试命令
+
+node dist/index test/source test/target test/target
+
 ## 介绍
 
 工具支持excel、csv格式的文件导出成zip。 zip中的格式为json.

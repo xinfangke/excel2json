@@ -1,22 +1,4 @@
 "use strict";
-/**
-    源目录中必须包含configlist.xlsx文件，用来标示哪些文件需导出，哪些不需导出
-    configlist.xlsx 表头格式：
-    序号(number),   表文件名，   表介绍，  是否导出客户端（1|0），  是否导出服务端(1|0)
-    1,              gift,      "奖励",  1,                    1
-    执行脚本 node out/index sourcepath(表源) targetpath(表输出) interfacepath(接口输出)
-    实现原理，拉去目标文件夹的所有文件到缓存文件夹，编译缓存文件夹文件到目标文件夹
-
-    支持xlsx 与 txt(CSV)
-
-    会生成Cfgs.ts,config.zip两个文件，项目中都需要引用或加载到。
-
-    cfgs.ts包含类的定义描述如：
-
-    注意：表中为空的字段不会被导出，需程序判定字段是否存在。
-
- *  @author yangxiao
- */
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     return new (P || (P = Promise))(function (resolve, reject) {
         function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
