@@ -1,3 +1,9 @@
+## 安装
+
+```
+npm i excel2jsonzip
+```
+
 ## 测试命令
 
 node dist/index test/source test/target test/target
