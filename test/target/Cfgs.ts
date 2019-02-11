@@ -16,6 +16,8 @@ export const arena_stage_data:{name:string,clz:Types.arena_stage_data} = {name:"
  SkillType:number[];
 /** 己方技能效果 */ 
  OwnEffect:number;
+/** 己方效果参数 */ 
+ OwnEffectParm:string[];
 }
 export interface arena_stage_data{
 /** #ID */ 
